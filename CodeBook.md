@@ -1,4 +1,4 @@
-Codebook for the GetCleanProject: An Assignment for the Getting and Cleaning Data Coursera Course
+## Codebook for the GetCleanProject: An Assignment for the Getting and Cleaning Data Coursera Course
 
 This assignment expected students to download tables from the "Human Activity Recognition Using Smartphones Data Set".  The database contained a collection of data from experiments by Anguita et al (2013).  Data files from the database may be retrieved from at the url address:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
 
@@ -6,7 +6,7 @@ The movements of thirty subjects performing six different activities were tracke
 
 The tidy dataset has the following variable names (equivalently column names, provided in the tidy dataset in this order):
 
-# Variable Name	
+Column and Variable Name	
 1	Run - Independent variable indicating either the test or training run of the experiment
 2	Activity - Independent variable indicating one of six activities tested (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying)
 3	Subject - Independent variables identifying test subjects by number (numbered 1 through 30)
