@@ -6,7 +6,7 @@ The movements of thirty subjects performing six different activities were tracke
 
 The tidy dataset has the following variable names (equivalently column names, provided in the tidy dataset in this order):
 
-Column and Variable Name	
+### Column and Variable Name	
 1	Run - Independent variable indicating either the test or training run of the experiment
 2	Activity - Independent variable indicating one of six activities tested (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying)
 3	Subject - Independent variables identifying test subjects by number (numbered 1 through 30)
