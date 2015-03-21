@@ -1,7 +1,7 @@
 ## Codebook for the GetCleanProject: An Assignment for the Getting and Cleaning Data Coursera Course
 
 
-This assignment expected students to download tables from the "Human Activity Recognition Using Smartphones Data Set".  The database contained a collection of data from experiments by Anguita et al (2013).  Data files from the database may be retrieved from at the url address:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
+This assignment expected students to download tables from the "Human Activity Recognition Using Smartphones Data Set".  The database contained a collection of data from experiments by Anguita et al (2013).  Data files from the database may be retrieved from the url address:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
 
 
 The movements of thirty subjects performing six different activities were tracked with a Samsung Galaxy Smartphones.  Five hundred sixty different variables were monitored for each subject.  Subjects were placed into either a training or testing run of the experiment.  Our assignment specifically requested acquiring only the measured descriptive statistics (means and standard deviations) from the variables collected and creating two tidy datasets, one with raw data, and another summarizing the average of each variable for each activity and each subject.
