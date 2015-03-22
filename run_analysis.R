@@ -47,7 +47,9 @@ library(reshape2)
   merged<-merge(combined, activity_labels) 
   selected<-select(merged, Subject, Activity, Run, -ActNo, 3:81) 
   TiD<-arrange(selected,Subject, Run, Activity)
-View(head(TiD))
+  write.table(TiD, "TiD.txt", row.names = FALSE)
+
+
 ##  MELT DATA AND SEPERATE VARIABLE NAMES
   melted<- melt(TiD,id = c("Run", "Subject","Activity"))
   ## SEPARATE 
@@ -58,5 +60,4 @@ View(head(TiD))
   summarized<- summarize(grouped, mean(value))
   casted<- dcast(summarized, Run + Subject + Activity ~ Variable + Axis + Statistic)  
   TiDMean<- arrange(casted, Subject, Run, Activity)
-  
-View(TiDMean)
+  write.table(TiDMean, "TiDMean.txt", row.names = FALSE)
