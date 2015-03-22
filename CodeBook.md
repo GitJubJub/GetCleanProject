@@ -4,18 +4,18 @@
 This assignment expected students to download tables from the "Human Activity Recognition Using Smartphones Data Set".  The database contained a collection of data from experiments by Anguita et al (2013).  Data files from the database may be retrieved from the url address:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
 
 
-The movements of thirty subjects performing six different activities were tracked with a Samsung Galaxy Smartphones.  Five hundred sixty different variables were monitored for each subject.  Subjects were placed into either a training or testing run of the experiment.  Our assignment specifically requested acquiring only the measured descriptive statistics (means and standard deviations) from the variables collected and creating two tidy datasets, one with raw data, and another summarizing the average of each variable for each activity and each subject.
+The movements of thirty subjects performing six different activities were tracked with a Samsung Galaxy Smartphone.  Five hundred sixty different variables were monitored for each subject.  Subjects were placed into either a training or testing run of the experiment.  Our assignment specifically involved removing the measured statistics (means and standard deviations) from the variables collected and creating two tidy datasets: one with raw data, and another averaging each variable for each activity and each subject.
 
-The tidy dataset has the following variable names (equivalently column names, provided in the tidy dataset in this order):
+The first tidy dataset has the following variable names (given as columns in the order below):
 
 ### Column and Variable Name	
-1	Run - Independent variable indicating either the test or training run of the experiment
+1	Subject - Independent variables identifying test subjects by number (numbered 1 through 30)
 
 2	Activity - Independent variable indicating one of six activities tested (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying)
 
-3	Subject - Independent variables identifying test subjects by number (numbered 1 through 30)
+3	Run - Independent variable indicating either the test or training run of the experiment
 
-4	tBodyAcc-mean()-X (Columns 13 through 69 are dependent test variables indicating the tri-axial [x,y,z] vector or body statistic [mean, standard deviation]) 
+4	tBodyAcc-mean()-X
 
 5	tBodyAcc-mean()-Y
 
@@ -107,43 +107,70 @@ The tidy dataset has the following variable names (equivalently column names, pr
 
 49	fBodyAcc-std()-Z
 
-50	fBodyAccJerk-mean()-X
+50	fBodyAcc-meanFreq()-X
 
-51	fBodyAccJerk-mean()-Y
+51	fBodyAcc-meanFreq()-Y
 
-52	fBodyAccJerk-mean()-Z
+52	fBodyAcc-meanFreq()-Z
 
-53	fBodyAccJerk-std()-X
+53	fBodyAccJerk-mean()-X
 
-54	fBodyAccJerk-std()-Y
+54	fBodyAccJerk-mean()-Y
 
-55	fBodyAccJerk-std()-Z
+55	fBodyAccJerk-mean()-Z
 
-56	fBodyGyro-mean()-X
+56	fBodyAccJerk-std()-X
 
-57	fBodyGyro-mean()-Y
+57	fBodyAccJerk-std()-Y
 
-58	fBodyGyro-mean()-Z
+58	fBodyAccJerk-std()-Z
 
-59	fBodyGyro-std()-X
+59	fBodyAccJerk-meanFreq()-X
 
-60	fBodyGyro-std()-Y
+60	fBodyAccJerk-meanFreq()-Y
 
-61	fBodyGyro-std()-Z
+61	fBodyAccJerk-meanFreq()-Z
 
-62	fBodyAccMag-mean()
+62	fBodyGyro-mean()-X
 
-63	fBodyAccMag-std()
+63	fBodyGyro-mean()-Y
 
-64	fBodyBodyAccJerkMag-mean()
+64	fBodyGyro-mean()-Z
 
-65	fBodyBodyAccJerkMag-std()
+65	fBodyGyro-std()-X
 
-66	fBodyBodyGyroMag-mean()
+66	fBodyGyro-std()-Y
 
-67	fBodyBodyGyroMag-std()
+67	fBodyGyro-std()-Z
 
-68	fBodyBodyGyroJerkMag-mean()
+68	fBodyGyro-meanFreq()-X
 
-69	fBodyBodyGyroJerkMag-std()
+69	fBodyGyro-meanFreq()-Y
+
+70	fBodyGyro-meanFreq()-Z
+
+71	fBodyAccMag-mean()
+
+72	fBodyAccMag-std()
+
+73	fBodyAccMag-meanFreq()
+
+74	fBodyBodyAccJerkMag-mean()
+
+75	fBodyBodyAccJerkMag-std()
+
+76	fBodyBodyAccJerkMag-meanFreq()
+
+77	fBodyBodyGyroMag-mean()
+
+78	fBodyBodyGyroMag-std()
+
+79	fBodyBodyGyroMag-meanFreq()
+
+80	fBodyBodyGyroJerkMag-mean()
+
+81	fBodyBodyGyroJerkMag-std()
+
+82	fBodyBodyGyroJerkMag-meanFreq()
+
 
