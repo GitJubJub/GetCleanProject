@@ -8,7 +8,8 @@ The movements of thirty subjects performing six different activities were tracke
 
 The first tidy dataset has the following variable names (given as columns in the order below):
 
-### Column and Variable Name	
+####Column/Variables Name	
+
 1	Subject - Independent variables identifying test subjects by number (numbered 1 through 30)
 
 2	Activity - Independent variable indicating one of six activities tested (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, or Laying)
